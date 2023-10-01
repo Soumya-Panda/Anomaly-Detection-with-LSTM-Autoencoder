@@ -6,7 +6,7 @@ Here's a technical breakdown of what I've accomplished:
 
 **Data Preparation:** To ensure the model's effectiveness, I've meticulously prepared the time-series data. I've segmented it into sequences of fixed time-steps, ensuring that temporal dependencies are preserved and available for model training.
 
-The Graph representing JOMC Stock prices over 23 years:-
+The Graph representing JPMC Stock prices over 23 years:-
 ![image](https://github.com/Soumya-Panda/Anomaly-Detection-with-LSTM-Autoencoder/assets/81625214/c77ebad4-575a-4f85-a2ab-02e1ea2feafa)
 
 **Autoencoder Architecture:** My Autoencoder architecture is a key component of this project. It employs LSTM layers for their ability to capture temporal patterns. Additionally, I've incorporated Dropout layers for regularization, reducing the risk of overfitting, and TimeDistributed Dense layers to facilitate data reconstruction.
